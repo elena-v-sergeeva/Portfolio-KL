@@ -16,38 +16,36 @@
   <title>PORTFOLIO KATE LEO</title>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="header-wrapper">
-        <img class="header__logo" src="image/logo_header.png" alt="Сompany logo">
+  <div class="container">
+    <header class="header">
+      <img class="header__logo" src="image/logo_header.png" alt="Сompany logo">
+        
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__li"><a class="nav__list-link" href="#">Home</a></li>
+          <li class="nav__li"><a class="nav__list-link" href="#">About us</a></li>
+          <li class="nav__li"><a class="nav__list-link" href="#">other</a></li>
+          <li class="nav__li"><a class="nav__list-link" href="#">blog</a></li>
+          <li class="nav__li"><a class="nav__list-link" href="#">contact</a></li>
+        </ul>
+      </nav>
       
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__li"><a class="nav__list-link" href="#">Home</a></li>
-            <li class="nav__li"><a class="nav__list-link" href="#">About us</a></li>
-            <li class="nav__li"><a class="nav__list-link" href="#">other</a></li>
-            <li class="nav__li"><a class="nav__list-link" href="#">blog</a></li>
-            <li class="nav__li"><a class="nav__list-link" href="#">contact</a></li>
-          </ul>
-        </nav>
-
-        <div class="search__wrapper">
-          <input class="search" type="search" placeholder="search">
+      <form class="search__wrapper">
+        <label for="search"></label>
+        <input id="search" class="search" type="search" placeholder="search" required>
+        <button class="search__button">
           <span class="search__span"></span>
-        </div>
-      </div>  
-    </div>
-  </header>  
-  <main>
-    <div class="container">
-      <section class="present">
-        <div class="title">
-          <p class="title__name">Kate leo</p>
-          <h1 class="title__сaption">Freelance Web Developer in new YORK</h1>
-        </div>
+        </button>
+      </form>
+    </header>  
+    <main>
+      <section class="present"><div>
+        <h1 class="title__name">Kate leo</h1>
+        <p class="title__сaption">Freelance Web Developer in new YORK</p>
+      
         <div class="overlay"></div>  
       </section>
-    </div>
-  </main>  
+    </main>
+  </div>  
 </body>
 </html>
